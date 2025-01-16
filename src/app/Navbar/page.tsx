@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav
       aria-label="Main navigation"
-      className="relative px-4 sm:px-[100px] md:px-[150px] lg:px-[300px] py-[15px]"
+      className="sticky top-0 z-50 w-full px-4 lg:px-[300px] py-[10px] bg-white shadow-md"
     >
       {/* Navbar Container */}
       <div className="flex items-center justify-between">
